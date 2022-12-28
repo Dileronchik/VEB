@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Каркас сайта</title>
+<style>
+/* Оболочка */
+#wrapper{
+    width: 90%; /* Ширина */
+    padding: 10px; /* Внутренний отступ */
+    margin: 0 auto; /* Выравнивание по центру */
+}
+/* Шапка */
+#header{
+    height: 8%; /* Высота */
+    background: #25b33f; /* Фоновый цвет */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+/* Сайдбар */
+#sidebar{
+    height: 80px; /* Высота */
+    width: 50%; /* Ширина */
+    background: #2ff553; /* Фоновый цвет */
+    margin-bottom: 10px; /* Отступ снизу */
+    float: left; /* Левое обтекание */
+}
+/* Сайдбар */
+#content{
+    height: 80px; /* Высота */
+    width: 50%; /* Ширина */
+    background: #9ef7af; /* Фоновый цвет */
+    margin: 0 0 10px 210px; /* Наружные отступы */
+}
+/* Подвал */
+#footer{
+    height: 80px; /* Высота */
+    background: #41874e; /* Фоновый цвет */
+    margin-bottom: auto; /* Отступ снизу */
+}
+</style>
+</head>
+<body>
+Оболочка
+    <div id="wrapper">
+Шапка
+        <div id="header"></div>
+Сайдбар
+        <div id="sidebar"></div>
+Контент
+        <div id="content"></div>
+Подвал
+        <div id="footer"></div>
+    </div>
+</body>
+</html>

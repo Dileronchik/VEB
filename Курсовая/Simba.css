@@ -1,0 +1,94 @@
+body{
+    background:#82B9E9;
+}
+#wrapper {
+    width:90%; /* Ширина */
+    background:#7AA6D8;
+    padding: 15px; /* Внутренний отступ */
+    margin: 0 auto;
+}
+#header{
+    height: 80px; /* Высота */
+    background: #82B9E9; /* Фоновый цвет */
+    margin-bottom: 15px; /* Отступ снизу */
+    text-align: center;
+    color: #FAF8F7;
+    filter: drop-shadow(8px 8px 26px #3B70CA);
+    text-shadow: 0px 2px 3px #3B70CA;
+    padding:2%;
+}
+#sidebar{
+    width: 29%; /* Ширина */
+    height: 400px; /* Высота временная */
+    background: #D0AFC4; /* Фоновый цвет */
+    box-shadow: 10px 30px #b294a7;
+    margin-bottom: 7%; /* Отступ снизу */
+    margin-right: 5%; /* Отступ слева */
+    margin-top: 1%;
+    padding: 10px;
+    float: left;
+    filter: drop-shadow(8px 8px 26px #3B70CA);
+}
+#content1{
+    height: 40%; /* Временная высота */
+    width: 60%; /* Ширина */
+    background: #82B9E9; /* Фоновый цвет */
+    margin-bottom: 3%; /* Отступ снизу */
+    margin-left: 35%;
+    padding: 5px;
+    outline: 5px dotted #D0AFC4;
+    filter: drop-shadow(8px 8px 26px #3B70CA);
+}
+p{
+    color: #FAF8F7;
+    font-family:cursive;
+    text-shadow: 0px 2px 3px #3B70CA;
+    text-align: left;
+}
+#content2{
+    outline: 5px dotted #D0AFC4;
+    filter: drop-shadow(8px 8px 26px #3B70CA);
+    height: 45%; /* Временная высота */
+    width: 60%; /* Ширина */
+    background: #82B9E9; /* Фоновый цвет */
+    margin-bottom: 4%; /* Отступ снизу */
+    margin-top: 2%;
+    margin-left: 35%;
+    padding: 10px;
+    text-align: center;
+}
+ol{
+    color: #f9ece5;
+    margin-left: 35%;
+    font-family:cursive;
+    font-size:18px;
+}
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #3B70CA;
+}
+a:hover {
+    color: #D0AFC4;
+}
+p{
+    color: #FAF8F7;
+    font-family:cursive;
+    text-shadow: 0px 2px 3px #3B70CA;
+}
+#footer{
+    height: 80px; /* Высота. Ширина по умолчанию занимает ширину оболочки */
+    background: #3B70CA; /* Фоновый цвет */
+    margin: 0 auto;
+    margin-bottom: 0 auto; /* Отступ снизу */
+}
+h5{
+    color: #D0AFC4;
+    font-size:16px;
+    margin-top: 3px; 
+}
+.clear{
+    clear: both;
+  }
+  img {   max-width: 100% }
